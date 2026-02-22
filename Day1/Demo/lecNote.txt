@@ -98,6 +98,15 @@ link between local repo and remote repo
   git push origin master
 
 
+=========================> clone  ==============> 
+git clone https://github.com/ayaatadel/Dot_Net_2026_r2.git
+----> repo : public (any one can see it )  =========> only collaborators can access it
+----> repo : private (no one can see it )  =========> only collaborators can access it
+
+
+Add Collaborstors : setting --> collabotrator --> add people 
+
+
 
 
                                       
