@@ -107,6 +107,14 @@ git clone https://github.com/ayaatadel/Dot_Net_2026_r2.git
 Add Collaborstors : setting --> collabotrator --> add people 
 
 
+=================> Same branch =========> 
+                check any updates 
+                git add .
+                git commit -m ""
+                git pull origin master
+                git push origin master
+
+
 
 
                                       
