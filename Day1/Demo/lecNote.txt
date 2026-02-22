@@ -1,10 +1,23 @@
 > iitailize git : git init
 > status : git status
+> show commits : git log || git log --oneline
+
+-----------> git log  (ID , Auther , Date , Commit_Message) 
+commit 868fc745546e6d0c8f3d6053745b7e587526e354 (HEAD -> master)
+Author: ayaatadel <ayaatadel128@gmail.com>
+Date:   Sun Feb 22 11:28:49 2026 +0200
+
+    feat:add section of home
 
 
 
+-----------> git log --oneline   (ID , Commit_Message) 
 
-
+868fc74 (HEAD -> master) feat:add section of home
+0766a71 chore:add new file name
+d96c227 docs: update commands of git hub
+1846984 feat:add navbar feature
+7d6b98e docs:add documentation for day1
 
 
 
