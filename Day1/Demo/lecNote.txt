@@ -49,3 +49,10 @@ working area                                staging area                    loca
                              (git reset fileName1)
                              (git reset fileName1 fileName2) 
                              (git reset) --> unracked all files that added
+                             
+                                                           <-------------------------
+                                                           remove chages (remove commmit )
+                                                           git reset --hard Head~ (~: N.commits)
+                                                           *************************************
+                                                           save chages (staged area )
+                                                           git reset --soft Head~ (~: N.commits)
