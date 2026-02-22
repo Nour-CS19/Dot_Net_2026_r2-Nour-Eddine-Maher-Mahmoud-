@@ -1,0 +1,11 @@
+SSH Key: Is used to securly connect to github without the need to username and password credentials it contains two parts:
+1- Private Key: This key must not be shared with anyone even on github.
+2- Public Key: This is the key which we share on github to connect local pc to github 
+
+This Command used to create the ssh key :  ssh-keygen -t ed25519 -C "podap384@gmail.com"
+
+
+After adding public ssh key to github account we should connect the private ssh key to the private one.
+
+
+
