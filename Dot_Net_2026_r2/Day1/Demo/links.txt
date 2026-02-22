@@ -1,0 +1,11 @@
+==========> Install Git 
+win :https://git-scm.com/install/windows
+Linux: https://git-scm.com/install/linux
+mac : https://git-scm.com/install/mac
+
+git message cheatsheet : https://eqraatech.com/git-commit-message-cheatsheet/
+
+github register : https://github.com/signup
+
+
+VS Core editor : https://git-scm.com/book/en/v2/Appendix-C:-Git-Commands-Setup-and-Config

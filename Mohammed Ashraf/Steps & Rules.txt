@@ -1,0 +1,13 @@
+1- ssh-keygen -t ed25519 -C "muhamiidashraf22@gmail.com"
+
+2- saved into users file in partition c (.ssh)
+
+3- got to GitHub setting 
+
+4- select SSH and GPG Keys
+
+5- New SSH Key
+
+6- copy all text from id_ed25519.pub in .ssh file and paste it inside GitHub 
+
+7- save

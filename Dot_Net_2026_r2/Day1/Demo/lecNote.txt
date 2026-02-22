@@ -1,0 +1,129 @@
+********************** Agenda ******************* 
+- History of Git (DVCs && CVCs)
+- install git 
+- git commands
+
+> initialize git : git init
+> status : git status
+>VS COde (core editor) : git config --global core.editor "code --wait"
+> remove changes not added : git checkout fileName
+> commit ammend :save changes on last commit : git commit --amend  ====> chages must be added
+> show commits : git log || git log --oneline
+
+-----------> git log  (ID , Auther , Date , Commit_Message) 
+commit 868fc745546e6d0c8f3d6053745b7e587526e354 (HEAD -> master)
+Author: ayaatadel <ayaatadel128@gmail.com>
+Date:   Sun Feb 22 11:28:49 2026 +0200
+
+    feat:add section of home
+
+
+
+-----------> git log --oneline   (ID , Commit_Message) 
+
+868fc74 (HEAD -> master) feat:add section of home
+0766a71 chore:add new file name
+d96c227 docs: update commands of git hub
+1846984 feat:add navbar feature
+7d6b98e docs:add documentation for day1
+
+******************************************************* Link accout github with local git ******************
+                                                           git config --global user.name "iti"
+                                                           git config --global user.email "iti@gmail.com"
+                                  chech configrations :  git config --global user.name
+                                  chech configrations :  git config --global user.email
+                                  chech configrations :  git config --list
+*********************************************************************************************************************
+
+
+*************************** Git Stages **********************
+
+working area                                staging area                    local repo (.git)                remote repo 
+(pc)                                       (filtaration)                                                    (github) 
+(untracked files || Chages)         (tracked files)      
+
+   index , about (update)
+
+   ---------------------------------------------->                                    =============>   git congig --global user.name "mahmoud"   ||  git config --global user.email "mahmoud@gmail.com"
+
+           git add fileName || FolderName
+           git add file1   file2
+           git add .
+           git add --all
+                                    ---------------------------> Version (commit) 
+                                                     git commit -m "message"
+                                                               -m: message
+
+          ------------  file must be tracked file (add --> git add fileName) ---------->
+                             git commit -a -m "message"
+                             git commit -am "message"
+
+                             <-------------------------
+                             add New file 
+                             changes
+                             (git reset fileName1)
+                             (git reset fileName1 fileName2) 
+                             (git reset) --> unracked all files that added
+                             
+                                                           <-------------------------
+                                                           remove chages (remove commmit )
+                                                           git reset --hard Head~ (~: N.commits)
+                                                           *************************************
+                                                           save chages (staged area )
+                                                           git reset --soft Head~ (~: N.commits)
+
+                                                           ===============================================>
+                                                            link local repo with remote repo 
+                                                            git remote add origin https://github.com/ayaatadel/Dot_Net_2026_r2.git
+                                                                            (variable --> link repo)
+                                                            -----------> upload all files 
+                                                                         git push origin master
+
+
+=========================== Steps ==============
+install git 
+account on git hub
+handel configrations (userName , user Email)
+on git hub ----------> create repo 
+local repo : 
+git status  (Add , commit)
+-----------> starts----
+link between local repo and remote repo 
+ git remote add origin https://github.com/ayaatadel/Dot_Net_2026_r2.git
+  git push origin master
+
+
+  ===============> second time 
+  git status (add || commit)
+  git push origin master
+
+
+=========================> clone  ==============> 
+git clone https://github.com/ayaatadel/Dot_Net_2026_r2.git
+----> repo : public (any one can see it )  =========> only collaborators can access it
+----> repo : private (no one can see it )  =========> only collaborators can access it
+
+
+Add Collaborstors : setting --> collabotrator --> add people 
+
+
+=================> Same branch =========> 
+                check any updates 
+                git add .
+                git commit -m ""
+                git pull origin master
+                git push origin master
+
+
+
+================= deploy on github
+github pages ==========> any chanes apply in deployment
+------------ index on same path file .git
+------------ repo must be public 
+
+
+
+
+
+
+                                      
