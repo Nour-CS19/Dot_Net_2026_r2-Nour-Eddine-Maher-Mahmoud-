@@ -23,7 +23,7 @@ merge master in about  (switch about --> pull master)
  git push origin feature/create-about
 git pull master (conflict or not) (conflict or not)
      -- no conflict ==> git push origin feature/create-about 
-     --  conflict ==> solve conflict ==> git push origin feature/create-about 
+     --  conflict ==> solve conflict ==> (commit)git push origin feature/create-about 
 
 ----------merge about in master  (switch master --> pull about)
  switch about  : git switch master
@@ -31,7 +31,7 @@ git pull master (conflict or not) (conflict or not)
  git push origin master
 git pull about (conflict or not) (conflict or not)
      -- no conflict ==> git push origin master 
-     --  conflict ==> solve conflict ==> git push origin master
+     --  conflict ==> solve conflict ==>(commit)==> git push origin master
 
 
 ==========================>
