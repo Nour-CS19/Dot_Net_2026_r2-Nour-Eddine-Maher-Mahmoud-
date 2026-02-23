@@ -1,0 +1,6 @@
+Branches Names : 
+-- https://medium.com/@abhay.pixolo/naming-conventions-for-git-branches-a-cheatsheet-8549feca2534
+-- https://www.geeksforgeeks.org/git/how-to-naming-conventions-for-git-branches/
+README Example :  https://github.com/facebook/react
+MarkDown guide :  https://www.markdownguide.org/cheat-sheet/
+ 

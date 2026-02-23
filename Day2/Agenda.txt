@@ -2,7 +2,28 @@
 -- file README.md
     ---- Example : https://github.com/facebook/react
     ---- link markdown cheat-sheet : https://www.markdownguide.org/cheat-sheet/
--- Branches
+-- Branches  
+(feature (new code || fix || test))
+{
+    p1 , p2 , new commer ---> merge 
+}
+
+naming : 
+feature/T-456-user-authentication
+bugfix/T-789-fix-header-styling
+hotfix/T-321-security-patch
+release/v2.0.1
+docs/T-654-update-readme
+
+
+*************************** Branches ******************
+create branch : git branch branch_Name
+  git branch feature/create-navbar
+list branches : git branch
+
+========================================>
+
+
 -- Pull Request
 -- Stashing
 -- Organization
