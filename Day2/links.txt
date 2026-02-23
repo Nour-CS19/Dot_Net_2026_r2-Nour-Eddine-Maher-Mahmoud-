@@ -1,6 +1,16 @@
 Branches Names : 
 -- https://medium.com/@abhay.pixolo/naming-conventions-for-git-branches-a-cheatsheet-8549feca2534
 -- https://www.geeksforgeeks.org/git/how-to-naming-conventions-for-git-branches/
+1-https://medium.com/%40abhay.pixolo/naming-conventions-for-git-branches-a-cheatsheet-8549feca2534
+2-https://learn.microsoft.com/en-us/azure/devops/repos/git/create-branch?view=azure-devops&source=recommendations&tabs=browser
+3-https://www.geeksforgeeks.org/git/how-to-naming-conventions-for-git-branches/?utm_source=chatgpt.com#why-naming-conventions-matter
+4-https://stackoverflow.com/questions/273695/what-are-some-examples-of-commonly-used-practices-for-naming-git-branches?utm_source=chatgpt.com
+
+
+
 README Example :  https://github.com/facebook/react
 MarkDown guide :  https://www.markdownguide.org/cheat-sheet/
  
+
+.gitignore 
+https://git-scm.com/docs/gitignore
