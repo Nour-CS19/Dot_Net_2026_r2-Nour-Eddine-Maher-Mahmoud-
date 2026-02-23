@@ -32,3 +32,18 @@ git pull master (conflict or not) (conflict or not)
 git pull about (conflict or not) (conflict or not)
      -- no conflict ==> git push origin master 
      --  conflict ==> solve conflict ==> git push origin master
+
+
+==========================>
+merge about master (master--> about)
+--->switch about (current)
+--> pull (incomming)
+
+=========================>
+iti :
+switch his branch 
+git status (add , commit)
+git push remote branch 
+git pull origin master  (conflict)
+git push origin remote branch
+------> complete code ------->
